@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url(./media.css);
+
+
+header {
+    background: url(../images/Header\ Background.png);
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 506px;
+    left: 0px;
+    top: -1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#text {
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+header h1 {
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 278px;
+    height: 64px;
+    margin-left: 24px;
+    margin-top: 70px;
+}
+
+header p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 350px;
+    height: 132px ;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+
+header .baixar {
+    width: 330px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 28px;
+    border-color: #FFFFFF;
+    margin-left: 26px;
+    font-family: Open Sans;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+header .abra {
+    width: 330px;
+    height: 52px;
+    left: 0px;
+    top: 70px;
+    background: #23272A;
+    color: #FFFFFF;
+    border-radius: 28px;
+    border-color: #23272A;
+    margin-left: 26px;
+    margin-top: 16px;
+    font-family: Open Sans;
+    font-size: 16px;
+}
+
+img {
+    width: 379px;
+    height: 252px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+h2 {
+    width: 370px;
+    height: 99px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #23272A;
+    margin-top: 35px;
+    margin-left: 24px;
+}
+
+.page {
+    width: 360px;
+    height: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+
+#quatro h2 {
+    font-family: 'Luckiest Guy';
+}
+
+
+footer {
+    left: 0px;
+    top: 2652px;
+    background: #23272A;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+footer img {
+    left: 0%;
+    right: 75.27%;
+    top: 14.71%;
+    bottom: 16.91%;
+    width: 40px;
+    height: 30px;
+}
+
+footer p {
+    margin-left: 5px;
+    margin-top: 40px;
+}
