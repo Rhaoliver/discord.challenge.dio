@@ -8,6 +8,10 @@
         flex-basis: 390px;
     }
 
+    header {
+        background-position-x: -275px !important;
+    }
+
     footer {
         width: 429px;
         height: 140px;
