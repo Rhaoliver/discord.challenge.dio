@@ -1,0 +1,186 @@
+
+@media screen and (min-width: 200px) and (max-width: 430px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-basis: 390px;
+    }
+
+    footer {
+        width: 429px;
+        height: 140px;
+        left: 0px;
+        top: 2652px;
+        background: #23272A;
+        background-size: cover;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    body {
+        display: grid;
+        flex-basis: 500px;
+        margin-left: 24px;
+        margin-right: 24px
+    }
+
+    #text h1,
+    #text p {
+        text-align: center;
+        width: auto;
+        max-width: 60%;
+        margin: 70px auto 0 auto;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #um, #dois, #tres {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+
+    #um .midia,
+    #tres .midia {
+        height: 394px;
+        order: 0;
+    }
+
+    #um .text,
+    #tres .text {
+        height: 394px;
+        order: 1;
+    }
+
+    #um h2,
+    #tres h2 {
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 329px;
+        height: auto;
+        left: 623px;
+        top: 10px;
+    }
+
+    #um p,
+    #tres p {
+        width: 348px;
+        height: 88px;
+        left: 623px;
+        top: 296px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #dois .midia {
+        height: 394px;
+        order: 1;
+    }
+
+    #dois .text{
+        height: 394px;
+        order: 0;
+        margin-top: auto;
+    }
+
+    #dois h2 {
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 329px;
+        height: auto;
+        left: 623px;
+        top: 10px;
+    }
+
+    #dois p {
+        width: 348px;
+        height: 88px;
+        left: 623px;
+        top: 296px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .midia img {
+        width: 607px;
+        height: 394px;
+    }
+
+    #quatro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #quatro .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #quatro h2 {
+        width: 608px;
+        height: 80px;
+        font-family: 'Luckiest Guy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #23272A;
+        text-align: center;
+        width: auto;
+        max-width: 60%;
+    }
+
+    #quatro p {
+        width: 802px;
+        height: 44px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #23272A;
+        text-align: center;
+        width: auto;
+        max-width: 60%;
+    }
+
+}
